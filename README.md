@@ -2,7 +2,7 @@
 
 Things to write up:
 
-*** Models & Algorithms
+### Models & Algorithms
 - Gradient Descent
 - Linear Regression
 - Multiple Regression
