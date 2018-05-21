@@ -48,3 +48,12 @@ They can be nested, see this example for a cartesian product of two lists:
 [('black', 'S'), ('black', 'M'), ('black', 'L'), ('white', 'S'),
  ('white', 'M'), ('white', 'L')]
 ```
+
+### Generator Expressions
+To generate other types of sequences we can use genexps. It can save memory as it yields items one at a time using the iterator protocol instead of building the whole list at once.
+
+```python
+>>> symbols = '$¢£¥€¤'
+>>> tuple(ord(symbol) for symbol in symbols)  1
+(36, 162, 163, 165, 8364, 164)
+```
