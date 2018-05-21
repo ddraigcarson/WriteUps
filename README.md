@@ -3,7 +3,7 @@
 Things to write up:
 
 ### Models & Algorithms
-- Gradient Descent
+- ~~Gradient Descent~~
 - Linear Regression
 - Multiple Regression
 - kNN
