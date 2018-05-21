@@ -11,6 +11,10 @@ Things to write up:
 - Decision Trees
 - Neural networks
 
+### Concepts
+- Varience vs Bias, Over vs Underfitting
+- Probability notation
+
 
 ### Useful links
 - https://help.github.com/articles/basic-writing-and-formatting-syntax/
