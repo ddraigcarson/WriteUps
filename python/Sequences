@@ -19,6 +19,7 @@ list, bytearray, array.array, collections.deque, memoryview
 tuple, str and bytes
 
 ### List comprehensions or Listcomps
+
 ```python
 symbols = '$¢£¥€¤'
 codes = [ord(symbol) for symbol in symbols]
