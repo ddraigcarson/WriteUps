@@ -15,4 +15,9 @@ Imagine the data below, Gen 1 is our training data and Gen 2 is our test data. T
 The simplest distance measurement is Euclidean distance:
 
 ![error function](../images/EuclideanDistance.gif)
+
 Where x, y and z is the difference between our test point and all the training data points in the respective dimensions. Using this we get a list of distances where we can pick a number of them (k) that have the smallest values i.e. the nearest neighbours. We can then see the majority of the types of the k nearest neighbours and that is our prediction for our test point.
+
+Using all points within our training data range, we can start to draw boundaries:
+
+![error function](../images/kNN_Boundaries.png)
