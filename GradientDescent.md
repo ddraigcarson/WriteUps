@@ -12,9 +12,10 @@ In ML, GD is commonly used to find the minimum of an error/cost function in Line
 A gotcha can occur when a function has multiple valleys, once GD hits the minimum of one valley it has no reason to look for other valleys even if they may be lower. 
 
 There are three variations of gradient descent.
-1 Batch GD
-2 Mini batch GD
-3 Stochastic GD
+
+1. Batch GD
+2. Mini batch GD
+3. Stochastic GD
 
 ###### Batch
 This is what is described above when using the cost function that loops over our entire data set. 
