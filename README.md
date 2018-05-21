@@ -15,6 +15,7 @@ Things to write up:
 - Varience vs Bias, Over vs Underfitting
 - Probability notation
 - Measures of success, precision vs accuracy
+- Feature extraction and reduction
 
 
 ### Useful links
