@@ -29,9 +29,22 @@ In Python 3 they have their own scope but in 2.X variables declared inside would
 ```python
 >>> x = 'ABC'
 >>> dummy = [ord(x) for x in x]
->>> x  1
+>>> x  #1
 'ABC'
->>> dummy  2
+>>> dummy  #2
 [65, 66, 67]
->>>
+
+#1 The value of x is preserved.
+
+#2 The list comprehension produces the expected list.
+```
+They are equivilent to map and filter in terms of speed, though this is not a common held belief.
+They can be nested, see this example for a cartesian product of two lists:
+```python
+>>> colors = ['black', 'white']
+>>> sizes = ['S', 'M', 'L']
+>>> tshirts = [(color, size) for color in colors for size in sizes]  1
+>>> tshirts
+[('black', 'S'), ('black', 'M'), ('black', 'L'), ('white', 'S'),
+ ('white', 'M'), ('white', 'L')]
 ```
