@@ -24,3 +24,5 @@ For example, by implementing the len and getitem method our object can now behav
 Although they are powerful and give cool benefits, they are not meant to be called by the programmer, only by the interpreter (init being the exception)
 
 __add__ and __mul__ allow us to use the + and * operator
+
+###### If given a choice between implementing str or repr, choose repr as python will call that if a str method is missing
