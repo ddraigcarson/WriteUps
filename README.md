@@ -14,6 +14,7 @@ Things to write up:
 ### Concepts
 - Varience vs Bias, Over vs Underfitting
 - Probability notation
+- Measures of success, precision vs accuracy
 
 
 ### Useful links
