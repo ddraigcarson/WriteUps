@@ -1,6 +1,6 @@
 # Object model
 
-The Python interpreter invokes special methods to perform basic object operations, these special methods are called dunder methods because they start and end with two underscores '__init__()'
+The Python interpreter invokes special methods to perform basic object operations, these special methods are called dunder methods because they start and end with two underscores '\_\_init\_\_()'
 
 The special method names allow your objects to implement, support, and interact with basic language constructs such as:
 
