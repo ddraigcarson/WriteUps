@@ -6,7 +6,7 @@ Things to write up:
 - [~~Gradient Descent~~](https://github.com/ddraigcarson/WriteUps/blob/master/models/GradientDescent.md)
 - Linear Regression
 - Multiple Regression
-- kNN
+- [~~kNN~~](https://github.com/ddraigcarson/WriteUps/blob/master/models/kNN.md)
 - Naive bias
 - Decision Trees
 - Neural networks
