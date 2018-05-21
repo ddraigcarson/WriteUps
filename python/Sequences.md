@@ -57,3 +57,19 @@ To generate other types of sequences we can use genexps. It can save memory as i
 >>> tuple(ord(symbol) for symbol in symbols)  1
 (36, 162, 163, 165, 8364, 164)
 ```
+
+### Tuples
+##### Tuple unpacking
+The star operator can be used when calling a function to catch all other items
+
+```python
+>>> a, *b, c = range(5)
+>>> a
+0
+>>> c
+4
+>>> b
+[1, 2, 3]
+```
+
+The unpacking can also work for nested structures
