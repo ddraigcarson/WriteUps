@@ -17,6 +17,11 @@ Things to write up:
 - Measures of success, precision vs accuracy
 - Feature extraction and reduction
 
+### Pro Python
+- [~~Object model~~](https://github.com/ddraigcarson/WriteUps/blob/master/python/ObjectModel.md)
+- [Sequences](https://github.com/ddraigcarson/WriteUps/blob/master/python/Sequences.md)
+
+
 
 ### Useful links
 - https://help.github.com/articles/basic-writing-and-formatting-syntax/
