@@ -7,7 +7,7 @@ Starting from a random point, we then take steps along the negative gradient (th
 
 In ML, GD is commonly used to find the minimum of an error/cost function in Linear regression. An example of an error/cost function is:
 
-![error function](./images/CodeCogsEqn.gif)
+![error function](../images/CodeCogsEqn.gif)
 
 A gotcha can occur when a function has multiple valleys, once GD hits the minimum of one valley it has no reason to look for other valleys even if they may be lower. 
 
