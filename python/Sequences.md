@@ -19,8 +19,19 @@ list, bytearray, array.array, collections.deque, memoryview
 tuple, str and bytes
 
 ### List comprehensions or Listcomps
-
+A listcomp can be used to create a list, same way as a for loop but it is often quicker and more readable to use the list comp
 ```python
 symbols = '$¢£¥€¤'
 codes = [ord(symbol) for symbol in symbols]
+```
+In Python 3 they have their own scope but in 2.X variables declared inside would leak into the outer scope. They will also not mask the scope of surrounding scopes e.g. 
+
+```python
+>>> x = 'ABC'
+>>> dummy = [ord(x) for x in x]
+>>> x  1
+'ABC'
+>>> dummy  2
+[65, 66, 67]
+>>>
 ```
