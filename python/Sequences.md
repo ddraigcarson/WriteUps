@@ -73,3 +73,11 @@ The star operator can be used when calling a function to catch all other items
 ```
 
 The unpacking can also work for nested structures
+
+##### Named tuples
+We can create object like tuples using collections.nametuple. Instances of named tuples take up exactly the same amount of memory as a non named tuple because the field names are stored into the class. They also use less memory than a regular object because they do not store attributes in a per instance \_\_dict\_\_
+
+```python
+>>> City = collections.namedtuple('City', 'name country population coordinates')  1
+>>> tokyo = City('Tokyo', 'JP', 36.933, (35.689722, 139.691667)) 
+```
