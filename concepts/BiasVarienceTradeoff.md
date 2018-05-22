@@ -12,3 +12,15 @@ The different combinations of Bias vs Varience are:
 ![error function](../images/BiasVarienceTradeoff.png)
 
 [Source](http://scott.fortmann-roe.com/docs/BiasVariance.html)
+
+### Managing BvV
+
+Firstly it is important not to minimise bias at the expense of varience. That may fix the model for one dataset but will not create a strong generalised model. There are strategies for managing BvV such as
+
+##### Bagging and Resampling
+
+Also known as Bootstrap Aggregating, (a special case of model averaging), given a training set D of size n, we break it into m number of new training sets, Di, by sampling from D uniformly and with replacement(1) (The same observations may appear multiple times in the sample). We then train our model m times using the new training sets and combining the average output. This has been seen to improve the stability of unstable procedures like NN and classification or regression trees, but causes issues in stable methods such as kNN
+
+### Useful links
+1. https://en.wikipedia.org/wiki/Sampling_(statistics)#Replacement_of_selected_units
+2. http://scott.fortmann-roe.com/docs/BiasVariance.html
