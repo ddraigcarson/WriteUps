@@ -7,7 +7,7 @@ Things to write up:
 - Linear Regression
 - Multiple Regression
 - [~~kNN~~](https://github.com/ddraigcarson/WriteUps/blob/master/models/kNN.md)
-- Naive bias
+- Naive bayes
 - Decision Trees
 - Neural networks
 
