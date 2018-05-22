@@ -12,7 +12,7 @@ Things to write up:
 - Neural networks
 
 ### Concepts
-- Varience vs Bias, Over vs Underfitting
+- [Varience vs Bias, Over vs Underfitting](https://github.com/ddraigcarson/WriteUps/blob/master/concepts/BiasVarienceTradeoff.md)
 - Probability notation
 - Measures of success, precision vs accuracy
 - Feature extraction and reduction
