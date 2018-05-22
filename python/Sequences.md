@@ -81,3 +81,5 @@ We can create object like tuples using collections.nametuple. Instances of named
 >>> City = collections.namedtuple('City', 'name country population coordinates')  1
 >>> tokyo = City('Tokyo', 'JP', 36.933, (35.689722, 139.691667)) 
 ```
+##### Slicing
+Slicing for tuples as well as other sequences is of the form s[a:b:c]
