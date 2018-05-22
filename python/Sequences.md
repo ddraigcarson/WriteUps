@@ -81,5 +81,37 @@ We can create object like tuples using collections.nametuple. Instances of named
 >>> City = collections.namedtuple('City', 'name country population coordinates')  1
 >>> tokyo = City('Tokyo', 'JP', 36.933, (35.689722, 139.691667)) 
 ```
-##### Slicing
-Slicing for tuples as well as other sequences is of the form s[a : b : c]
+### Slicing
+Slicing for tuples as well as other sequences is of the form s[a : b : c] where a is the start point, b is the end point and c is the skip value.
+
+```python
+>>> s = 'bicycle'
+>>> s[::3]
+'bye'
+>>> s[::-1]
+'elcycib'
+>>> s[::-2]
+'eccb'
+```
+
+Slice objects can also be created which can be refered to at later points such as:
+
+```python
+relevant_columns = slice(4,8)
+v_big_arr_1 = [123,...]
+v_big_arr_2 = [456,...]
+relevant_bits = v_big_arr_1[relevant_columns] + v_big_arr_2[relevant_columns]
+```
+
+### Operands
+Sequences can be concatenated using the + operator, they can be repeated using *. Both + and * always create a new object, and never change their operands.
+
+```python
+>>> 5 * 'abcd'
+'abcdabcdabcdabcdabcd'
+
+# A list with three references to the same list is useless, it is a reference to the same list
+>>> weird_board = [['_'] * 3] * 3 
+>>> weird_board
+[['_', '_', '_'], ['_', '_', '_'], ['_', '_', '_']]
+```
