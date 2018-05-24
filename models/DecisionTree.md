@@ -7,3 +7,6 @@ Here is an example:
 ![error function](../images/RandomForestTree.png)
 
 The question is how to decide the right root node attribute and thresholds?
+
+Things to include in the right up
+Cross validation split
