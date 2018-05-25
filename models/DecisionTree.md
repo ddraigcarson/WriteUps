@@ -8,5 +8,9 @@ Here is an example:
 
 The question is how to decide the right root node attribute and thresholds?
 
-Things to include in the right up
+Things to include in the write up
 Cross validation split
+number of features to split on is sqrt of the total number of features
+https://datascience.stackexchange.com/questions/23666/how-many-features-to-sample-using-random-forests
+
+Gini index https://github.com/rasbt/python-machine-learning-book/blob/master/faq/decision-tree-binary.md
