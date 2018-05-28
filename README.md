@@ -20,6 +20,7 @@ Things to write up:
 - Probability notation
 - Measures of success, precision vs accuracy
 - Feature extraction and reduction
+- Data visualisation
 
 ### Pro Python
 - [~~Object model~~](https://github.com/ddraigcarson/WriteUps/blob/master/python/ObjectModel.md)
