@@ -8,7 +8,7 @@ Things to write up:
 - Multiple Regression
 - [~~kNN~~](https://github.com/ddraigcarson/WriteUps/blob/master/models/kNN.md)
 - Naive bayes
-- [Decision Trees](https://github.com/ddraigcarson/WriteUps/blob/master/models/DecisionTree)
+- [Decision Trees](https://github.com/ddraigcarson/WriteUps/blob/master/models/DecisionTree.md)
 - Neural networks
 
 ### Data
