@@ -11,6 +11,10 @@ Things to write up:
 - [Decision Trees](https://github.com/ddraigcarson/WriteUps/blob/master/models/DecisionTree)
 - Neural networks
 
+### Data
+- Apache Spark
+- Hadoop
+
 ### Concepts
 - [~~Varience vs Bias, Over vs Underfitting~~](https://github.com/ddraigcarson/WriteUps/blob/master/concepts/BiasVarienceTradeoff.md)
 - Probability notation
