@@ -2,6 +2,8 @@
 
 Things to write up:
 
+### Projects
+
 ### Models & Algorithms
 - [~~Gradient Descent~~](https://github.com/ddraigcarson/WriteUps/blob/master/models/GradientDescent.md)
 - Linear Regression
