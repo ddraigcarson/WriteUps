@@ -27,7 +27,7 @@ Things to write up:
 ### Pro Python
 - [~~Object model~~](https://github.com/ddraigcarson/WriteUps/blob/master/python/ObjectModel.md)
 - [Sequences](https://github.com/ddraigcarson/WriteUps/blob/master/python/Sequences.md)
-
+- [Numpy](https://github.com/ddraigcarson/WriteUps/blob/master/python/Numpy.md)
 
 
 ### Useful links
