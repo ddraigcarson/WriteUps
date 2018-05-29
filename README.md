@@ -28,6 +28,7 @@ Things to write up:
 - [~~Object model~~](https://github.com/ddraigcarson/WriteUps/blob/master/python/ObjectModel.md)
 - [Sequences](https://github.com/ddraigcarson/WriteUps/blob/master/python/Sequences.md)
 - [Numpy](https://github.com/ddraigcarson/WriteUps/blob/master/python/Numpy.md)
+- [Scipy](https://github.com/ddraigcarson/WriteUps/blob/master/python/Scipy.md)
 
 
 ### Useful links
