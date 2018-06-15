@@ -14,6 +14,7 @@ Things to write up:
 - Neural networks
 
 ### Data
+- [Exploratory Data Analysis] (https://github.com/ddraigcarson/WriteUps/blob/master/data/ExploratoryDataAnalysis.md)
 - Apache Spark
 - Hadoop
 
